@@ -1,0 +1,193 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Sans-Serif;
+}
+.z-index {
+   z-index: 150;
+   width: 100%;
+   height: 100%;
+}
+/*.main-section {
+   width: 100vw;
+   height: 100vh;
+   background-color: rgba(0,0,0,0.5);
+}*/
+section {
+   width: 100vw;
+   height: 100vh;
+   background: url('https://raw.githubusercontent.com/techiecoder2079/Netflix-Clone/main/1.jpg') no-repeat center center / cover;
+   position: relative;
+  
+}
+.layer {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background-color: rgba(0,0,0,0.5);
+}
+
+
+
+html {
+   font-size: 62.5%;
+}
+header {
+   z-index: 101;
+}
+.logo {
+   width: 100%;
+   height: 80px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.logo img {
+   width: 15rem;
+   display: inline;
+   margin-left: 50px;
+}
+.sign-btn {
+   margin-right: 50px;
+   text-decoration: none;
+   color: #fff;
+   background-color: red;
+   border-radius: 0.3rem;
+   padding: 6px 16px;
+   font-size: 13px;
+   font-weight: bolder;
+   outline: none;
+   margin-top: -7px;
+   transition: 0.2s;
+}
+.sign-btn:hover {
+   background-color: rgb(201,7,7);
+}
+.main {
+   width: 100%;
+   height: ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+   color: #fff;
+}
+.content {
+   padding-top: 60px;
+}
+.content h1 {
+   font-size: 5rem;
+   margin: 0;
+   line-height: 56px;
+}
+.content h3 {
+   margin: 0.9rem 0;
+   font-size: 2.5rem;
+   margin-bottom: 1.5rem;
+}
+.content p {
+   font-size: 1.8rem;
+   font-weight: 600;
+   margin-bottom: 2rem;
+}
+.content .input {
+   width: 43rem;
+   height: 5.65rem;
+   margin-top: -0px;
+   outline: none;
+   border: none;
+   border: 1px solid lightgrey;
+   padding: 0.9rem 4rem 1rem 0.8rem;
+   border-radius: 1px;
+}
+input::placeholder {
+   font-size: 1.4rem;
+}
+.content .lg-btn {
+   background-color:rgb(228,0,0);
+   text-decoration: none;
+   color: #fff;
+   font-weight: 580;
+   /*padding: 1.6rem 1.5rem 1.4rem 1.5rem;*/
+   outline: none;
+   height: 4.6rem;
+  
+   /*margin: -2.5px 0 0 -2px;*/
+   font-size: 2.4rem;
+   padding: 1rem 2.5rem;
+   border-radius: 1px;
+   padding-bottom: 1.6rem;
+   text-align: center;
+   margin: 0 0 -10px -2.1px;
+   cursor: ;
+}
+.lg-btn:hover {
+   background-color: red;
+   cursor: pointer;
+}
+.content input {
+   margin-top: ;
+   font-size: 1.4rem;
+   color: red;
+   font-weight: 600;
+   letter-spacing: 2px;
+}
+.input-text {
+   display: inline;
+}
+.get {
+   display: inline;
+   margin-top: 10px;
+}
+
+
+/*----responshiv section---*/
+@media (max-width: 410px) {
+   .logo {
+      height: 90px;
+   }
+   .logo img {
+      margin-left: 22px;
+      width: 11.8rem;
+   }
+   .sign-btn {
+      margin-right: 22px;
+   }
+   .content h1 {
+      font-size: 2.9rem;
+      line-height: 40px;
+   }
+   .content h3 {
+      font-size: 1.8rem;
+   }
+   .content p {
+      font-size: 2rem;
+      width: 100%;
+   }
+   .content {
+      padding: 60px 1rem 0 1rem;
+      width: 95%;
+   }
+   .content .input {
+      width: 100%;
+      height: 4.8rem;
+      padding: 0.6rem 0 0.6rem 0.8rem;
+   }
+   input::placeholder {
+      font-size: ;
+   }
+   .content .lg-btn {
+      font-size: 1.6rem;
+      padding: 0.9rem 1.8rem;
+   }
+   .get {
+      display: block;
+      padding-top: 2rem;
+   }
+   
+}
+/*----responshiv section---*/
